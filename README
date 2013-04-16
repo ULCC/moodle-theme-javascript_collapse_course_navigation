@@ -5,13 +5,13 @@ Using javascript in the theme it is possible to collapse the menu by default.
 
 ## To install Javascript ##
 
-Clone files to /theme/mytheme/javascript
+Clone files from 'javascript' folder to /theme/mytheme/javascript
 
 ## To configure ##
 
 Add the following to /theme/mytheme/config.php
 
-    /** List of javascript files that need to be included on each page */
-    $THEME->javascripts = array();
-    $THEME->javascripts_footer = array();
-    $THEME->javascripts_footer = array('jquery-1.7.1.min','lib');
+/** List of javascript files that need to be included on each page */
+$THEME->javascripts = array();
+$THEME->javascripts_footer = array();
+$THEME->javascripts_footer = array('jquery-1.7.2.min','datatables.min','datatables.plugins','inboxtable','turnitintool','lib');
